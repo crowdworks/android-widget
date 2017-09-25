@@ -18,9 +18,14 @@ android {
   }
 }
 
+repositories {
+  jcenter()
+  maven { url "https://dl.bintray.com/crowdworks/maven" }
+}
+
 dependencies {
   compile rootProject.ext.supportAppCompatV7
-  compile project(':widget-fontawesome')
-  compile project(':widget-material-design-font')
-  compile project(':widget-divider')
+  compile 'jp.co.crowdworks.android-widget:widget-material-design-font:0.0.1'
+  compile 'jp.co.crowdworks.android-widget:widget-fontawesome:0.0.1'
+  compile 'jp.co.crowdworks.android-widget:widget-divider:0.0.1'
 }
