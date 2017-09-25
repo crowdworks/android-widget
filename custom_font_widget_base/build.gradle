@@ -1,0 +1,22 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+android {
+  compileSdkVersion rootProject.ext.compileSdkVersion
+  buildToolsVersion rootProject.ext.buildToolsVersion
+
+  defaultConfig {
+    minSdkVersion rootProject.ext.minSdkVersion
+    targetSdkVersion rootProject.ext.compileSdkVersion
+  }
+}
+
+dependencies {
+  provided rootProject.ext.supportAppCompatV7
+}
+
+tasks.withType(Javadoc).all {
+  options.memberLevel = JavadocMemberLevel.PACKAGE
+}
+
+apply from: rootProject.file('bintray_publish.gradle')

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="4dp"
+      android:text="FontAwesomeTextView"
+      android:textAppearance="@style/TextAppearance.AppCompat.Title"
+      />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:padding="4dp"
+      >
+    <jp.co.crowdworks.android.widget.FontAwesomeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/fa_twitter"
+        android:textSize="24sp"
+        />
+
+    <jp.co.crowdworks.android.widget.DividerView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        />
+
+    <jp.co.crowdworks.android.widget.FontAwesomeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/fa_facebook"
+        android:textSize="24sp"
+        />
+  </LinearLayout>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="4dp"
+      android:text="MaterialDesignFontTextView"
+      android:textAppearance="@style/TextAppearance.AppCompat.Title"
+      />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:padding="4dp"
+      >
+    <jp.co.crowdworks.android.widget.MaterialDesignFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/zmdi_search"
+        android:textSize="24sp"
+        />
+
+    <jp.co.crowdworks.android.widget.DividerView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        />
+
+    <jp.co.crowdworks.android.widget.MaterialDesignFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/zmdi_calendar"
+        android:textSize="24sp"
+        />
+  </LinearLayout>
+
+  <jp.co.crowdworks.android.widget.DividerView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:thickness="3dp"
+      />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="4dp"
+      android:text="FontAwesomeButton"
+      android:textAppearance="@style/TextAppearance.AppCompat.Title"
+      />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:padding="4dp"
+      >
+    <jp.co.crowdworks.android.widget.FontAwesomeButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/fa_twitter"
+        android:textSize="24sp"
+        />
+
+    <jp.co.crowdworks.android.widget.FontAwesomeButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/fa_facebook"
+        android:textSize="24sp"
+        />
+  </LinearLayout>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="4dp"
+      android:text="MaterialDesignFontButton"
+      android:textAppearance="@style/TextAppearance.AppCompat.Title"
+      />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:padding="4dp"
+      >
+    <jp.co.crowdworks.android.widget.MaterialDesignFontButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/zmdi_search"
+        android:textSize="24sp"
+        />
+    <jp.co.crowdworks.android.widget.MaterialDesignFontButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/zmdi_calendar"
+        android:textSize="24sp"
+        />
+  </LinearLayout>
+
+</LinearLayout>
